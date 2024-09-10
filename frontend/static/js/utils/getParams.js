@@ -1,7 +1,3 @@
-// export const pathRegex= (path) => new RegExp(
-// 			"^" + path.replace(/\//g,"\\/").replace(/:\w+/g,"(.+)") + "$" 
-// 	)
-
 export const getParams= async (path) => {
 	let paramsArr= [];
 	const splitted=	path.split('/')
